@@ -4,5 +4,5 @@ const comp3 = ['Let me gaze upon it.', 'Teach me how I can be like you.', 'I wis
 let randomNumber = () => {
    return Math.floor(Math.random() * 9)
 }
-let message = comp1[randomNumber()]
+let message = `I like your ${comp1[randomNumber()]}, it is ${comp2[randomNumber()]}. ${comp3[randomNumber()]}`
 console.log (message)
